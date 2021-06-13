@@ -1,0 +1,7 @@
+create database crudjdbc;
+
+CREATE TABLE city (
+  Id int(11) NOT NULL AUTO_INCREMENT,
+  Name varchar(60) DEFAULT NULL,
+  PRIMARY KEY (Id)
+);
